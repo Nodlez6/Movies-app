@@ -1,0 +1,76 @@
+.navBar{
+    background-color: #072227;
+    border-bottom: 5px solid #35858B;
+}
+
+.searchButton{
+    color: #AEFEFF;
+    border: 0.3px solid #AEFEFF;
+    
+}
+
+.searchButton:hover{
+    color: #4FBDBA;
+    border: 0.3px solid #4FBDBA;
+}
+
+.App-logo {
+    height: 50px;
+    pointer-events: none;
+  }
+  
+  
+
+.texto-logo{
+    color: white;
+    margin-top: 7px;
+    font-weight:600;
+    font-size: 20px;
+}
+
+.inputCustom {
+    width: 400px;
+}
+
+.links-navbar{
+    display: flex;
+    margin-top: 3px;
+}
+.first-link{
+    margin-left: 15px;
+}
+
+@media (max-width: 600px) {
+    .links-navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+    }
+    .first-link{
+        margin-left: 0px;
+    }
+    .search-button{
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .inputCustom {
+        width: 100%;
+    }
+}
+
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #4FBDBA;
+}
+.active{
+    color: #4FBDBA !important
+}
+
+
+

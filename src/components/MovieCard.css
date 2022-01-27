@@ -1,0 +1,70 @@
+.card{
+    width: 100%;
+    height: 100%;
+   padding: 6px;
+  
+   transition: 0.5s ease;
+   cursor: pointer;
+   
+}
+
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.title-movie{
+    color: black;
+    text-align: start;
+}
+.contenedor-spaceb{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.example{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ 
+ 
+}
+
+.puntuacion{
+    color: #4FBDBA;
+    font-weight: 800;
+    margin-left: 2px;
+    
+}
+
+.linea{
+    width: 100%;
+    height: 2px;
+    background-color: #35858B;
+    
+}
+
+.date-movie{
+    color: black;
+    margin-top: 10px;
+}
+.button-more{
+    height: 40px;
+    margin-top: 20px;
+    width: 50%;
+    color: #AEFEFF;
+    background-color: #072227 ;
+    border: 0.3px solid #AEFEFF;
+}
+
+.button-more:hover{
+    color: #4FBDBA;
+    border: 0.3px solid #4FBDBA;
+    background-color: #072227;
+}
+
+.update{
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
